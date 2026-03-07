@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Notícia de teste 1",
+    "description": "Este é um artigo de teste para o NextNews.",
+    "url": "https://example.com",
+    "image": "",
+    "category": "technology",
+    "slug": "noticia-de-teste-1"
+  },
+  {
+    "title": "Notícia de teste 2",
+    "description": "Outro artigo de teste para verificar exibição.",
+    "url": "https://example.com",
+    "image": "",
+    "category": "sports",
+    "slug": "noticia-de-teste-2"
+  }
+]
