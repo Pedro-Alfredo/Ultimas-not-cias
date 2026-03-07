@@ -1,12 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt">
 <head>
-  <title>Notícias Automáticas</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portal de Notícias</title>
+<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <h1>Últimas Notícias</h1>
-  <div id="news"></div>
-  <script src="script.js"></script>
+
+<header>
+<h1>Portal de Notícias</h1>
+
+<input type="text" id="searchInput" placeholder="Pesquisar notícias...">
+
+<div class="categories">
+<button onclick="loadNews('general')">Geral</button>
+<button onclick="loadNews('technology')">Tecnologia</button>
+<button onclick="loadNews('business')">Negócios</button>
+<button onclick="loadNews('sports')">Esportes</button>
+<button onclick="loadNews('science')">Ciência</button>
+</div>
+
+</header>
+
+<main id="news-container"></main>
+
+<script src="script.js"></script>
+
 </body>
 </html>
